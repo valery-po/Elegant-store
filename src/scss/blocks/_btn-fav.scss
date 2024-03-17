@@ -1,0 +1,22 @@
+.btn-fav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  background-color: #fff;
+  border-radius: 50%;
+  transition: all .2s ease-in;
+
+  svg {
+    fill: #6c7275;
+  }
+
+  &:hover {
+    background-color: red;
+    svg {
+        fill: #fff;
+    }
+  }
+}
+
